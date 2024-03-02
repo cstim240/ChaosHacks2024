@@ -2,3 +2,22 @@
   color: red;
   background: url("./images/pingu.jpeg");
 }
+
+@font-face {
+font-family: 'Pochirin';
+src: url('/dist/Pochirin.ttf') format('truetype');
+}
+
+#footer {
+    font-family: 'Pochirin';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.colored-block {
+    position: relative;
+    background-color: #ffe699;
+    height: 100px;
+    width: 100%;
+    margin-top: auto;
+}
