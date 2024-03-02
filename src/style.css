@@ -34,9 +34,9 @@ src: url('/dist/Pochirin.ttf') format('truetype');
 }
 
 .team_names {
-    position: fixed;
+    position: relative;
     bottom: 0;
     right: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Pochirin';
     font-size: 16px;
 }
