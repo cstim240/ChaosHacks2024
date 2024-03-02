@@ -19,6 +19,12 @@ src: url('/dist/Pochirin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+#header img{
+  position: absolute;
+  top: 0;
+  right: 0; 
+}
 .colored-block {
     position: relative;
     background-color: #ffe699;
