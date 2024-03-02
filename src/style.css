@@ -28,16 +28,17 @@ src: url('/dist/Pochirin.ttf') format('truetype');
 .colored-block {
     position: relative;
     background-color: #ffe699;
-    height: 100px;
+    height: 200px;
     width: 100%;
     margin-top: auto;
 }
 
 #team_names {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-  font-family: 'Pochirin';
-    font-size: 16px;
-    padding: 10px;
+    font-family: 'Pochirin';
+    text-align: right;
+}
+
+.monke {
+    height: 50%;
+    width: 50%;
 }
