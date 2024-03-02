@@ -21,3 +21,11 @@ src: url('/dist/Pochirin.ttf') format('truetype');
     width: 100%;
     margin-top: auto;
 }
+
+.team_names {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
