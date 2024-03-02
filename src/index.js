@@ -13,4 +13,14 @@ function component() {
   return element;
 }
 
+function loadInputBoxes() {
+  const inputBox = document.getElementById("NumPeople").value;
+
+  if (inputBox == 1) {
+    console.log()
+  }
+  
+}
+
+
 document.body.appendChild(component());
