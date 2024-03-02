@@ -1,26 +1,14 @@
-import "./style.css";
-import penguin from "./images/pingu.jpeg";
-
-function component() {
-  const element = document.createElement("div");
-  element.innerHTML = "hello";
-  element.classList.add("hello");
-
-  const myImage = new Image();
-  myImage.src = penguin;
-
-  element.appendChild(myImage);
-  return element;
-}
-
 function loadInputBoxes() {
-  const inputBox = document.getElementById("NumPeople").value;
+  console.log("hello world");
+  // const inputBox = document.getElementById("NumPeople").value;
+  
+  // const body2 = document.createElement("div");
 
-  if (inputBox == 1) {
-    console.log()
-  }
+  // for (let i = 0; i < inputBox; ++i){
+  //   const inputSuggestion = document.createElement("input");
+  //   body2.appendChild(inputSuggestion);
+  // }
   
 }
 
 
-document.body.appendChild(component());
