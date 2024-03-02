@@ -29,6 +29,21 @@ body{
   top: 0;
   right: 0; 
 }
+#header{
+  color:#6a5034;
+}
+
+#body{
+  color:#6a5034;
+}
+
+#footer{
+  color:#6a5034;
+}
+
+#team_names{
+  color:#6a5034;
+}
 .colored-block {
     position: relative;
     background-color: #ffe699;
