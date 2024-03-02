@@ -14,6 +14,11 @@ src: url('/dist/Pochirin.ttf') format('truetype');
     font-style: normal;
 }
 
+#header{
+  font-family: 'Pochirin';
+    font-weight: normal;
+    font-style: normal;
+}
 .colored-block {
     position: relative;
     background-color: #ffe699;
