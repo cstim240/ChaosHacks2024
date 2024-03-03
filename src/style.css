@@ -52,9 +52,8 @@ body{
     margin-top: auto;
     border: 5px outset grey;
     border-radius: 11px;
-    display: flex;
-    justify-content: center;
 }
+
 
 #team_names {
     font-family: 'Pochirin';
@@ -66,7 +65,6 @@ body{
     width: 300px;
 }
 
-<<<<<<< HEAD
 .body-color {
     position: relative;
     background-color: #ffffff;
@@ -77,18 +75,3 @@ body{
     border-radius: 11px;
     margin-left: 25%;
 }
-=======
-#memonke{
-  text-align: center;
-}
-
-#memonkey img{
-  display: block;
-  margin: 0 auto;
-}
-
-
-.body1{
-    text-align: center;
-}
->>>>>>> 4f637ab132a80e40f6a4668b5349e44060f3b37a
