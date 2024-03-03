@@ -52,6 +52,8 @@ body{
     margin-top: auto;
     border: 5px outset grey;
     border-radius: 11px;
+    display: flex;
+    justify-content: center;
 }
 
 #team_names {
@@ -76,5 +78,4 @@ body{
 
 .body1{
     text-align: center;
-
 }
