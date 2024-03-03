@@ -50,6 +50,9 @@ body{
     height: 200px;
     width: 100%;
     margin-top: auto;
+    border: 5px outset grey;
+    border-radius: 11px;
+}
 }
 
 #team_names {
