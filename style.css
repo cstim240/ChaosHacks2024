@@ -5,7 +5,7 @@
 
 @font-face {
 font-family: 'Pochirin';
-src: url('/dist/Pochirin.ttf') format('truetype');
+src: url('/Pochirin.ttf') format('truetype');
 }
 
 body{
