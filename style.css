@@ -1,0 +1,94 @@
+.hello {
+  color: red;
+  background: url("./images/pingu.jpeg");
+}
+
+@font-face {
+font-family: 'Pochirin';
+src: url('/dist/Pochirin.ttf') format('truetype');
+}
+
+body{
+    font-family: 'Pochirin';
+    background-color: #ffffff;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+#footer {
+    font-family: 'Pochirin';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header{
+    font-family: 'Pochirin';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header img{
+  position: absolute;
+  top: 0;
+  right: 0; 
+}
+#header{
+  color:#6a5034;
+}
+
+#body{
+  color:#6a5034;
+}
+
+#footer{
+  color:#6a5034;
+}
+
+#team_names{
+  color:#6a5034;
+}
+.colored-block {
+    position: relative;
+    background-color: #ffe699;
+    height: 200px;
+    width: 100%;
+    margin-top: auto;
+    border: 5px outset grey;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+}
+
+#team_names {
+    font-family: 'Pochirin';
+    text-align: right;
+}
+
+.monke {
+    height: 300px;
+    width: 300px;
+}
+
+.memonke{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+#body-block {
+    position: relative;
+    background-color: #dfd3ec;
+    height: 450px;
+    width: 50%;
+    margin-top: auto;
+    border: 5px outset grey;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+h1 {
+    font-size: 100px;
+}
