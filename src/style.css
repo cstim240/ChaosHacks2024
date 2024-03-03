@@ -11,6 +11,8 @@ src: url('/dist/Pochirin.ttf') format('truetype');
 body{
     font-family: 'Pochirin';
     background-color: #ffffff;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 #footer {
     font-family: 'Pochirin';
@@ -66,29 +68,27 @@ body{
     width: 300px;
 }
 
-#memonke{
-  text-align: center;
-}
-
-#memonkey img{
-  display: block;
-  margin: 0 auto;
+.memonke{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
-.body1{
-    text-align: center;
+#body-block {
+    position: relative;
+    background-color: #dfd3ec;
+    height: 450px;
+    width: 50%;
+    margin-top: auto;
+    border: 5px outset grey;
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
 }
-button{
-  background-color: grey;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 18px;
-  font-family: "Courier New", Courier, monospace;
-  color: white;
-  padding: px;
-  margin-left: 10px;
-  text-align: center;
-  cursor: pointer;
+
+h1 {
+    font-size: 100px;
 }
