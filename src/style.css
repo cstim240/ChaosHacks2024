@@ -8,6 +8,10 @@ font-family: 'Pochirin';
 src: url('/dist/Pochirin.ttf') format('truetype');
 }
 
+body{
+    font-family: 'Pochirin';
+    background-color: #ffffff;
+}
 #footer {
     font-family: 'Pochirin';
     font-weight: normal;
@@ -46,7 +50,10 @@ src: url('/dist/Pochirin.ttf') format('truetype');
     height: 200px;
     width: 100%;
     margin-top: auto;
+    border: 5px outset grey;
+    border-radius: 11px;
 }
+
 
 #team_names {
     font-family: 'Pochirin';
@@ -54,6 +61,11 @@ src: url('/dist/Pochirin.ttf') format('truetype');
 }
 
 .monke {
-    height: 50%;
-    width: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.body1{
+    text-align: center;
+
 }
