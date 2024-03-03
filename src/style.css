@@ -65,7 +65,13 @@ body{
     width: 300px;
 }
 
-.body1{
-    text-align: center;
-
+.body-color {
+    position: relative;
+    background-color: #ffffff;
+    height: 200px;
+    width: 50%;
+    margin-top: auto;
+    border: 5px outset grey;
+    border-radius: 11px;
+    margin-left: 25%;
 }
